@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to our facility management website, featuring smart ticketing and maintenance solutions.">
+  <meta name="keywords" content="facility management, smart ticketing, preventive maintenance">
+  <title>Facility Management Core and Operations</title>
+  <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#features" onclick="showTab('features', this)">Features</a></li>
+      <li><a href="#contact" onclick="showTab('contact', this)">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <div id="features" class="tab active">
+    <h1>Facility Management Core and Operations</h1>
+    <div class="features-section">
+      <div class="feature-card">
+        <h3>HSE Bulletins</h3>
+        <p>Stay updated with the latest Health, Safety, and Environmental bulletins.</p>
+        <div class="popup">
+          <img src="assets/images/bulletin1.png" alt="Bulletin 1 Image" />
+          <p>Bulletin 1: Safety Protocols Updated</p>
+          <img src="assets/images/bulletin2.png" alt="Bulletin 2 Image" />
+          <p>Bulletin 2: New Equipment Guidelines</p>
+          <img src="assets/images/bulletin3.png" alt="Bulletin 3 Image" />
+          <p>Bulletin 3: Emergency Procedures</p>
+        </div>
+      </div>
+      <div class="feature-card"><h3>FAQs</h3><p>Find answers to common questions regarding our services and features.</p></div>
+      <div class="feature-card"><h3>Smart Ticketing</h3><p>Automate the creation and tracking of facility-related tickets and issues.</p></div>
+      <div class="feature-card"><h3>Chat-based Interface</h3><p>Communicate through familiar messaging apps like WhatsApp, Telegram, and Facebook Messenger.</p></div>
+      <div class="feature-card"><h3>QR Code Scanning</h3><p>Enable quick access to equipment information and reporting via QR codes.</p></div>
+      <div class="feature-card"><h3>Preventive Maintenance</h3><p>Automate scheduled maintenance tasks to keep your facilities running smoothly.</p></div>
+      <div class="feature-card"><h3>Customizable Workflows</h3><p>Set up approval processes and ticket routing based on your organization’s needs.</p></div>
+      <div class="feature-card"><h3>Reports and Dashboards</h3><p>Gain insights with real-time data dashboards and custom reports.</p></div>
+    </div>
+    <div class="disclaimer">
+      <br><br>
+      <p>This is a sample use and is not yet available for implementation. This website (including any embedded content or code) contains confidential information. If you have accessed this page by mistake, please notify the administrator and close this page immediately.</p>
+    </div>
+  </div>
+
+  <div id="contact" class="tab">
+    <h1>Contact Us</h1>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+      <input type="submit" value="Submit" class="btn">
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Your Company. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts/tabs.js"></script>
+  <script src="https://portal.facilitybot.co/javascripts/asyns_iframe.js" id="widget-webchat" agent-token="86bcf59c940c783e3593782788ed86f5" icon-color="#253565" type="text/javascript"></script>
+</body>
+</html>
